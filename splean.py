@@ -12,6 +12,13 @@ Created on Fri Jul 23 03:32:31 2021
 @author: Sanni Henry
 """
 
+
+
+import streamlit as st
+from PIL import Image
+image = Image.open('440px-3D_Medical_Animation_Spleen_Anatomy.jpg')
+st.image(image, caption='Spleen analysis')
+
 import numpy as np
 import pickle
 import pandas as pd
